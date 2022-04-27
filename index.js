@@ -28,7 +28,7 @@ const verifyJWT = (req, res, next) => {
 }
 
 app.get('/', (req, res) => {
-  res.send('Genius Car Service Running')
+  res.send('Genius Car Service Running in UnKnown port')
 })
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.x9bx1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
